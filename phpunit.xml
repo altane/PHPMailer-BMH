@@ -14,7 +14,7 @@
          testdox="true"
 >
   <testsuite name="Project Test Suite">
-    <directory>tests</directory>
+    <directory>./tests</directory>
   </testsuite>
   <logging>
     <log type="coverage-clover" target="build/logs/clover.xml"/>
