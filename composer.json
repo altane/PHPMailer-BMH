@@ -1,5 +1,5 @@
 {
-  "name": "voku/bounce-mail-handler",
+  "name": "altane/bounce-mail-handler",
   "type": "library",
   "description": "Bounce Mail Handler",
   "keywords": [
@@ -26,6 +26,11 @@
     {
       "name": "Lars Moelleken",
       "email": "lars@moelleken.org",
+      "role": "Other Fork Maintainer"
+    },
+    {
+      "name": "Florian Dallard",
+      "email": "dallard.florian@gmail.com",
       "role": "Fork Maintainer"
     }
   ],
@@ -37,8 +42,8 @@
     "phpunit/phpunit": "~6.0|~7.0"
   },
   "autoload": {
-    "psr-0": {
-      "BounceMailHandler": "src/"
+    "psr-4": {
+      "BounceMailHandler\\": "src/"
     }
   }
 }
